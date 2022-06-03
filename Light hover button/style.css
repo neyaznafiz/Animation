@@ -1,0 +1,33 @@
+.btn{
+    padding: 10px 20px;
+    border: 2px solid #ffffff;
+    font-size: 40px;
+    letter-spacing: 9px;
+    border-radius: 10px;
+    background-color: transparent;
+    color: #ffffff;
+    cursor: pointer;
+    position: relative;
+    transition: background-color 1s, color 1s;
+}
+
+.btn:hover{
+    background-color: #ffffff;
+    color: #000000;
+}
+
+.btn::after{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -35%;
+    background-color: transparent;
+    height: 50%;
+    width: 100%;
+    transform: perspective(25px) rotateX(40ged) scale(1.2,0.45);
+    filter: blur(17px);
+    transition: background-color 1s;
+}
+.btn:hover::after{
+    background-color: #ffffff;
+}
