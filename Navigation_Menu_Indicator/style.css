@@ -18,3 +18,18 @@ align-items: center;
 min-height: 100vh;
 background: var(--clr);
 }
+
+.navigation{
+    position: relative;
+    width: 400px;
+    height: 70px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+navigation ul {
+    
+}
