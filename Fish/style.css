@@ -1,0 +1,45 @@
+
+body {
+  margin: 0;
+  height: 100%;
+  display: flex;
+  overflow: hidden;
+  align-items: center;
+  justify-content: center;
+  background-color: #d5eafc;
+}
+
+
+
+.fish, .fish-shadow {
+  left: 0px;
+  right: 0px;
+  top: 100px;
+  width: 640px;
+  height: auto;
+  margin: auto;
+  position: absolute;
+}
+
+.fish path, .fish-shadow path { fill: #fff; }
+.fish .line, .fish-shadow .line { fill: none;}
+.fish path:hover, .fish-shadow path:hover { fill: #ff6100; }
+
+.fish-shadow-con {
+  top: 0;
+  left: 0;
+  right: 0;
+  opacity: 0.2;
+  margin: auto;
+  filter: blur(10px);
+  position: absolute;
+}
+
+.fish-shadow {
+  top: 125px;
+  left: 157px;
+  opacity: 0.7;
+}
+.fish-shadow path { fill: #211922; }
+
+
